@@ -10,7 +10,7 @@ import UIKit
 class MainViewController: UITableViewController {
     
     let footballclubNames = [
-        "Locomotiv", "CSKA" , "Zenit"
+        "Lokomotiv", "CSKA" , "Zenit"
     ]
 
     override func viewDidLoad() {
@@ -29,6 +29,7 @@ class MainViewController: UITableViewController {
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath)
         
         cell.textLabel?.text = footballclubNames[indexPath.row]
+        cell.imageView?.image = UIImage(named: footballclubNames[indexPath.row])
 
         return cell
     }
