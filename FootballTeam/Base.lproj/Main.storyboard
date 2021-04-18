@@ -7,7 +7,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Root View Controller-->
+        <!--Footbal clubs-->
         <scene sceneID="mII-4o-OnJ">
             <objects>
                 <tableViewController id="LeD-wK-hda" customClass="MainViewController" customModule="FootballTeam" customModuleProvider="target" sceneMemberID="viewController">
@@ -30,7 +30,7 @@
                             <outlet property="delegate" destination="LeD-wK-hda" id="dQb-gF-gDN"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Root View Controller" id="tj4-Uh-2Dh"/>
+                    <navigationItem key="navigationItem" title="Footbal clubs" id="tj4-Uh-2Dh"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="c4R-92-KhJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -40,9 +40,12 @@
         <scene sceneID="l3h-Je-9nP">
             <objects>
                 <navigationController id="utX-GD-dUH" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="R3y-T4-IpD">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="R3y-T4-IpD">
+                        <rect key="frame" x="0.0" y="44" width="414" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <textAttributes key="titleTextAttributes">
+                            <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="24"/>
+                        </textAttributes>
                     </navigationBar>
                     <connections>
                         <segue destination="LeD-wK-hda" kind="relationship" relationship="rootViewController" id="P6n-LK-b0M"/>
