@@ -74,7 +74,10 @@
                                     </constraints>
                                 </tableViewCellContentView>
                                 <connections>
+                                    <outlet property="foundationYearLabel" destination="zGx-eX-7dh" id="60s-2w-GTW"/>
                                     <outlet property="imageOfClub" destination="AFk-my-DBR" id="xyg-rt-C3M"/>
+                                    <outlet property="locationLabel" destination="XH5-jQ-Mxc" id="wLl-Vq-HDZ"/>
+                                    <outlet property="nameLabel" destination="ns5-wf-Z4m" id="Ro0-eO-QKu"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
