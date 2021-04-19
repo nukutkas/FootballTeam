@@ -8,7 +8,8 @@
 import UIKit
 
 class CustomTableViewCell: UITableViewCell {
-
+    @IBOutlet var imageOfClub: UIImageView!
+    
 
 
 }

@@ -73,6 +73,9 @@
                                         <constraint firstItem="ns5-wf-Z4m" firstAttribute="top" secondItem="OOH-yX-UXF" secondAttribute="top" constant="9" id="tQZ-R2-tjk"/>
                                     </constraints>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="imageOfClub" destination="AFk-my-DBR" id="xyg-rt-C3M"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
