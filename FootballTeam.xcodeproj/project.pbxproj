@@ -39,6 +39,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E580016A262F668F00C6CFA9 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E5A2955B262C540000462D50 /* MainViewController.swift */,
+				E5A2955F262C8CDB00462D50 /* CustomTableViewCell.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		E580016C262F673C00C6CFA9 /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				E5A29545262C510400462D50 /* AppDelegate.swift */,
+				E5A29547262C510400462D50 /* SceneDelegate.swift */,
+				E5A29553262C510600462D50 /* Info.plist */,
+			);
+			path = "Supporting files";
+			sourceTree = "<group>";
+		};
+		E580016E262F675100C6CFA9 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				E5A2954B262C510400462D50 /* Main.storyboard */,
+				E5A29550262C510600462D50 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		E580016F262F676E00C6CFA9 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				E5A2954E262C510600462D50 /* Assets.xcassets */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
 		E5A29539262C510400462D50 = {
 			isa = PBXGroup;
 			children = (
@@ -58,14 +94,10 @@
 		E5A29544262C510400462D50 /* FootballTeam */ = {
 			isa = PBXGroup;
 			children = (
-				E5A29545262C510400462D50 /* AppDelegate.swift */,
-				E5A2955B262C540000462D50 /* MainViewController.swift */,
-				E5A2955F262C8CDB00462D50 /* CustomTableViewCell.swift */,
-				E5A29547262C510400462D50 /* SceneDelegate.swift */,
-				E5A2954B262C510400462D50 /* Main.storyboard */,
-				E5A2954E262C510600462D50 /* Assets.xcassets */,
-				E5A29550262C510600462D50 /* LaunchScreen.storyboard */,
-				E5A29553262C510600462D50 /* Info.plist */,
+				E580016A262F668F00C6CFA9 /* ViewControllers */,
+				E580016E262F675100C6CFA9 /* Storyboards */,
+				E580016C262F673C00C6CFA9 /* Supporting files */,
+				E580016F262F676E00C6CFA9 /* Sources */,
 			);
 			path = FootballTeam;
 			sourceTree = "<group>";
@@ -292,7 +324,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z4HK5Y82J4;
-				INFOPLIST_FILE = FootballTeam/Info.plist;
+				INFOPLIST_FILE = "FootballTeam/Supporting files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -311,7 +343,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z4HK5Y82J4;
-				INFOPLIST_FILE = FootballTeam/Info.plist;
+				INFOPLIST_FILE = "FootballTeam/Supporting files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
