@@ -14,6 +14,7 @@
 		E5A29552262C510600462D50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5A29550262C510600462D50 /* LaunchScreen.storyboard */; };
 		E5A2955C262C540000462D50 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A2955B262C540000462D50 /* MainViewController.swift */; };
 		E5A29560262C8CDB00462D50 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A2955F262C8CDB00462D50 /* CustomTableViewCell.swift */; };
+		E5B58E8F26305FE6002A05DD /* TeamModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B58E8E26305FE6002A05DD /* TeamModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		E5A29553262C510600462D50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E5A2955B262C540000462D50 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		E5A2955F262C8CDB00462D50 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		E5B58E8E26305FE6002A05DD /* TeamModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,11 +97,20 @@
 			isa = PBXGroup;
 			children = (
 				E580016A262F668F00C6CFA9 /* ViewControllers */,
+				E5B58E9126305FF1002A05DD /* Models */,
 				E580016E262F675100C6CFA9 /* Storyboards */,
 				E580016C262F673C00C6CFA9 /* Supporting files */,
 				E580016F262F676E00C6CFA9 /* Sources */,
 			);
 			path = FootballTeam;
+			sourceTree = "<group>";
+		};
+		E5B58E9126305FF1002A05DD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E5B58E8E26305FE6002A05DD /* TeamModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -173,6 +184,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E5A29546262C510400462D50 /* AppDelegate.swift in Sources */,
+				E5B58E8F26305FE6002A05DD /* TeamModel.swift in Sources */,
 				E5A29548262C510400462D50 /* SceneDelegate.swift in Sources */,
 				E5A29560262C8CDB00462D50 /* CustomTableViewCell.swift in Sources */,
 				E5A2955C262C540000462D50 /* MainViewController.swift in Sources */,
