@@ -10,7 +10,6 @@ import UIKit
 class CustomTableViewCell: UITableViewCell {
     
     @IBOutlet var imageOfClub: UIImageView!
-    
     @IBOutlet var nameLabel: UILabel!
     @IBOutlet var locationLabel: UILabel!
     @IBOutlet var foundationYearLabel: UILabel!
