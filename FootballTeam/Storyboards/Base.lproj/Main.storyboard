@@ -86,11 +86,45 @@
                             <outlet property="delegate" destination="LeD-wK-hda" id="dQb-gF-gDN"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Footbal clubs" id="tj4-Uh-2Dh"/>
+                    <navigationItem key="navigationItem" title="Footbal clubs" id="tj4-Uh-2Dh">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="QWd-eR-NQK">
+                            <connections>
+                                <segue destination="EdL-Vg-e1a" kind="presentation" modalPresentationStyle="fullScreen" id="4ji-f1-E3X"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="c4R-92-KhJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1212" y="-415"/>
+        </scene>
+        <!--Table View Controller-->
+        <scene sceneID="DH7-Bp-TSm">
+            <objects>
+                <tableViewController id="EdL-Vg-e1a" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="UVE-g3-HaS">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="y0b-t7-5G9">
+                                <rect key="frame" x="0.0" y="28" width="414" height="43.5"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="y0b-t7-5G9" id="noq-xl-RGt">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="EdL-Vg-e1a" id="5RY-Aj-hIG"/>
+                            <outlet property="delegate" destination="EdL-Vg-e1a" id="w2x-pC-zlB"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XAp-J8-tEY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1980" y="-415"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="l3h-Je-9nP">
